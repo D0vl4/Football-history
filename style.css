@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "PT Sans";
+    font-family: "PT Sans", sans-serif;
     font-size: 14px;
 }
 
@@ -19,14 +19,12 @@ body {
     flex-direction: column;
     gap: 2rem;
     padding: 2rem;
-    width: 37rem;
-    height: 58rem;
+    max-width: 27rem;
     border-radius: 15px;
     background-color: #fff;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
 }
 
 .image {
-    min-width: 32rem;
     border-radius: 15px;
 }
