@@ -42,3 +42,15 @@ h1 {
 .svg {
     width: 5rem;
 }
+
+.close {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 10rem;
+    background-color: #28b679;
+    border-radius: 10px;
+}
+
+.close:active {
+    transform: translateY(2px);
+}
